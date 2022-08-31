@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 const ButtonDeleteStyle = styled.button`
-  margin-left: 10px;
+  margin-left: ${p => p.theme.space[3]}px;
   background-color: black;
   color: white;
   border-radius: 5%;
