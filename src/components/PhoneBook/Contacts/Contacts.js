@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactsItem from './Contacts.styled';
-import InputFilter from '../Input/InputFilter/inputFilter';
+import InputFilter from '../Input/InputFilter/InputFilter';
 import LabelFilter from '../Label/LabelFilter/LabelFilter';
 import ButtonDelete from '../Button/ButtonDelete/ButtonDelete';
 import PropTypes from 'prop-types';

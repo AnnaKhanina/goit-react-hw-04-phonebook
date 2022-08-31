@@ -1,8 +1,8 @@
-import Phonebook from './Phonebook/Phonebook';
+import Phonebook from './PhoneBook/Phonebook';
 import { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid/non-secure';
 import General from './General/General';
-import Contacts from './Phonebook/Contacts/Contacts';
+import Contacts from './PhoneBook/Contacts/Contacts';
 
 const App = () => {
   const [contacts, setContacts] = useState(() => {
