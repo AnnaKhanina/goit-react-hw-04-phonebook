@@ -3,9 +3,9 @@ import styled from '@emotion/styled';
 const Label = styled.label`
   display: flex;
   flex-direction: column;
-  font-size: 32px;
+  font-size: ${p => p.theme.fontSizes.ml};
   &:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: ${p => p.theme.space[5]}px;
   }
 `;
 

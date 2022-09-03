@@ -9,6 +9,8 @@ export const theme = {
       accent: '#787878',
       muted: '#f6f6f6',
       red: '#ff0000',
+      purple: '#FF6ABD',
+      grey: '#706D6E',
     },
     space: [0, 2, 4, 8, 16, 20, 32, 64],
     fonts: {
@@ -20,6 +22,7 @@ export const theme = {
       xs: '10px',
       s: '14px',
       m: '24px',
+      ml: '32px',
       l: '40px',
       xl: '48px',
     },
@@ -37,10 +40,10 @@ export const theme = {
     },
     radii: {
       none: '0',
-      sm: '4px',
+      sm: '5px',
       md: '8px',
-      lg: '16px',
-      round: '50%',
+      lg: '10px',
+      round: '5%',
     },
     sizes: {
         xs:'100px',  

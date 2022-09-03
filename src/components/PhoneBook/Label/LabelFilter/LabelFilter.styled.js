@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 
 const LabelFilterStyle = styled.label`
-  margin: 0;
-  font-size: 24px;
+  margin: ${p => p.theme.space[0]};
+  font-size: ${p => p.theme.fontSizes.m};
 `;
 
 export default LabelFilterStyle;
